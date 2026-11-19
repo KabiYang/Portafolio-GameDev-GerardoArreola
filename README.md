@@ -20,6 +20,13 @@ Estudiante de desarrollo y diseño de videojuegos, enfocado en programación en 
 * **Decisiones de diseño** En lugar de hacer niveles con final, decidí dejarlo infinito para que el jugador intente superar su propio récord, usando colores distintos en las esferas para que se identifiquen rápido al caer y evitar confusiones.
 * **Matemáticas aplicadas** Uso de números aleatorios (`Random.Range`) para generar los objetos en distintas posiciones del eje X, cálculo de caída en 2D y sumas/restas para el puntaje (+1 amarilla, +10 azul) y las vidas (5 al inicio, +1 verde, -1 roja o si se cae una buena).
 * **Qué aprendí** A programar colisiones en 2D (`OnTriggerEnter2D`), controlar el flujo de pantallas (inicio, juego y *Game Over*) y estructurar un ciclo de juego completo en Unity.
+* **Código fuente (C#)**
+  * [CambioEscenas.cs](CambioEscenas.cs)
+  * [Catcher.cs](Catcher.cs)
+  * [Drop.cs](Drop.cs)
+  * [GameManager.cs](GameManager.cs)
+  * [MostrarPuntuación.cs](MostrarPuntuaci%C3%B3n.cs)
+  * [TextoFlotante.cs](TextoFlotante.cs)
 
 ### Capturas de gameplay (*Catcher Pato*)
 
@@ -39,6 +46,11 @@ Estudiante de desarrollo y diseño de videojuegos, enfocado en programación en 
 * **Decisiones de diseño** Ajusté las partidas para que duren 20 segundos, aunque puede aumentarse este límite si uno tiene suerte, y agregué un aumento en el valor del clic después de pasar los primeros 10 para darle más ritmo a la partida.
 * **Matemáticas aplicadas** Uso de `Time.deltaTime` para llevar el conteo regresivo exacto, cálculo de probabilidades en cada clic para soltar bonos aleatorios (+10 puntos o +2 segundos extra) y multiplicadores simples (pasar de 1 a 2 puntos por clic al superar los 10 clics).
 * **Qué aprendí** A manejar temporizadores precisos en tiempo real y a programar eventos aleatorios que respondan rápido al jugador.
+* **Código fuente (C#)**
+  * [Bonus.cs](Bonus.cs)
+  * [CambioEscenas-Clicker.cs](CambioEscenas-Clicker.cs)
+  * [Game_Clicker.cs](Game_Clicker.cs)
+  * [Score.cs](Score.cs)
 
 ### Capturas de gameplay (*Clicker My Game*)
 
