@@ -107,3 +107,7 @@ Estudiante de desarrollo y diseño de videojuegos, enfocado en programación en 
 | Duende | Espíritu | Gólem | Lobo | Slime |
 | :---: | :---: | :---: | :---: | :---: |
 | <img src="Duende.jpeg" width="140"> | <img src="Espiritu.jpeg" width="140"> | <img src="Golem.jpeg" width="140"> | <img src="Lobo.jpeg" width="140"> | <img src="Slime.jpeg" width="140"> |
+---
+### Anexo
+* [Ver mapa y planeación inicial del portafolio (PDF)](Mapa_Portafolio_GerardoArreola.pdf)
+*
