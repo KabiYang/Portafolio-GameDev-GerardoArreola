@@ -19,8 +19,17 @@ Estudiante de desarrollo y diseño de videojuegos, enfocado en programación en 
 * **De qué trata** Un juego arcade infinito donde tienes que atrapar objetos que caen, cuidando tus vidas y buscando la puntuación más alta.
 * **Decisiones de diseño** En lugar de hacer niveles con final, decidí dejarlo infinito para que el jugador intente superar su propio récord, usando colores distintos en las esferas para que se identifiquen rápido al caer y evitar confusiones.
 * **Matemáticas aplicadas** Uso de números aleatorios (`Random.Range`) para generar los objetos en distintas posiciones del eje X, cálculo de caída en 2D y sumas/restas para el puntaje (+1 amarilla, +10 azul) y las vidas (5 al inicio, +1 verde, -1 roja o si se cae una buena).
-* **Evidencias** *(Capturas del juego y scripts en C# pendientes por subir en la siguiente actualización).*
 * **Qué aprendí** A programar colisiones en 2D (`OnTriggerEnter2D`), controlar el flujo de pantallas (inicio, juego y *Game Over*) y estructurar un ciclo de juego completo en Unity.
+
+### Capturas de gameplay (*Catcher Pato*)
+
+| Pantalla 1 | Pantalla 2 | Pantalla 3 |
+| :---: | :---: | :---: |
+| <img src="Catcher-Game%20%281%29.png" width="220"> | <img src="Catcher-Game%20%282%29.png" width="220"> | <img src="Catcher-Game%20%283%29.png" width="220"> |
+
+| Pantalla 4 | Pantalla 5 | Pantalla 6 |
+| :---: | :---: | :---: |
+| <img src="Catcher-Game%20%284%29.png" width="220"> | <img src="Catcher-Game%20%285%29.png" width="220"> | <img src="Catcher-Game%20%286%29.png" width="220"> |
 
 ---
 
@@ -29,8 +38,17 @@ Estudiante de desarrollo y diseño de videojuegos, enfocado en programación en 
 * **De qué trata** Un juego casual contrarreloj donde debes hacer la mayor cantidad de clics posibles antes de que se acabe el tiempo.
 * **Decisiones de diseño** Ajusté las partidas para que duren 20 segundos, aunque puede aumentarse este límite si uno tiene suerte, y agregué un aumento en el valor del clic después de pasar los primeros 10 para darle más ritmo a la partida.
 * **Matemáticas aplicadas** Uso de `Time.deltaTime` para llevar el conteo regresivo exacto, cálculo de probabilidades en cada clic para soltar bonos aleatorios (+10 puntos o +2 segundos extra) y multiplicadores simples (pasar de 1 a 2 puntos por clic al superar los 10 clics).
-* **Evidencias** *(Capturas de la interfaz y scripts del contador pendientes por subir en la siguiente actualización).*
 * **Qué aprendí** A manejar temporizadores precisos en tiempo real y a programar eventos aleatorios que respondan rápido al jugador.
+
+### Capturas de gameplay (*Clicker My Game*)
+
+| Pantalla 1 | Pantalla 2 | Pantalla 3 | Pantalla 4 |
+| :---: | :---: | :---: | :---: |
+| <img src="Clicker-Game%20%281%29.png" width="180"> | <img src="Clicker-Game%20%282%29.png" width="180"> | <img src="Clicker-Game%20%283%29.png" width="180"> | <img src="Clicker-Game%20%284%29.png" width="180"> |
+
+| Pantalla 5 | Pantalla 6 | Pantalla 7 |
+| :---: | :---: | :---: |
+| <img src="Clicker-Game%20%285%29.png" width="180"> | <img src="Clicker-Game%20%286%29.png" width="180"> | <img src="Clicker-Game%20%287%29.png" width="180"> |
 
 ---
 
