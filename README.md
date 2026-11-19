@@ -64,9 +64,9 @@ Estudiante de desarrollo y diseño de videojuegos, enfocado en programación en 
 
 ### Proceso de arte — Bocetos iniciales a lápiz (*Dungeon*)
 
-| Boceto Bruja | Boceto Mímico y Diablo | Boceto Murciélago, Espíritu y Duende | Boceto Lobo, Slime, Mono, Dragón y Gólem |
+| Boceto Bruja | Boceto Mímico y Diablo | Boceto Murciélago, Espíritu y Duende | Boceto Lobo Gigante, Slime, Dragón y Gólem |
 | :---: | :---: | :---: | :---: |
-| <img src="Boceto-Bruja%28anterior%29.jpeg" width="180"> | <img src="Boceto-Mimico-Diablo.jpeg" width="180"> | <img src="Boceto-Murcielago-Espiritu-Duende.jpeg" width="180"> | <img src="Boceto-Lobo-Slime-Mono-Dragon-Golem.jpeg" width="180"> |
+| <img src="Boceto-BrujaAnterior.jpeg" width="180"> | <img src="Boceto-Mimico-Diablo.jpeg" width="180"> | <img src="Boceto-Murcielago-Espiritu-Duende.jpeg" width="180"> | <img src="Boceto-LoboGigante-Slime-Dragon-Golem.jpeg" width="180"> |
 
 ### Diseño final de enemigos (*Dungeon* — Dibujos propios)
 
