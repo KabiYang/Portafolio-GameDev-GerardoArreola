@@ -55,7 +55,7 @@ Estudiante de desarrollo y diseño de videojuegos, enfocado en programación en 
 
 | Vista general | Vista alterna |
 | :---: | :---: |
-| <img src="Tributo_del_hambre.jpeg" width="300"> | <img src="Tributo_del_hambre2.jpeg" width="300"> |
+| <img src="Tributo_del_hambre.jpeg" width="300"> | <img src="Tributo_del_hambre1.jpeg" width="300"> |
 
 ### Diseño de enemigos (*Dungeon* — Dibujos propios)
 
