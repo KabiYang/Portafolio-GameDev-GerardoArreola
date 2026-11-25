@@ -129,4 +129,19 @@ Estudiante de desarrollo y diseño de videojuegos, enfocado en programación en 
 ## 6. Sistemas de Lógica y Programación Orientada a Objetos en C# (Visual Studio)
 * **Mi rol** Desarrollo individual (100% programación en C#, diseño de lógica de sistemas y arquitectura orientada a objetos).
 * **De qué trata** Colección de tres sistemas completos desarrollados en consola que muestran mi evolución desde programación estructurada hasta Programación Orientada a Objetos (POO) aplicada a videojuegos:
+  1. **Tienda de Objetos RPG (`TiendaObjetosJugador.cs`):** Sistema de inventario y comercio por turnos donde un jugador administra monedas y estadísticas (salud, defensa y ataque) al comprar pociones, escudos y espadas con existencias limitadas y diálogos reactivos del vendedor.
+  2. **Sistema de Gestión de Estacionamiento (`GestionEstacionamiento.cs`):** Registro modular de vehículos con cálculo de tarifas por hora, descuentos por estancia y reportes estadísticos automáticos.
+  3. **Cotizador de Seguro Vehicular (`CotizadorSeguroVehicular.cs`):** Evaluador de solicitudes con validación cruzada de datos, reglas de rechazo y cálculo porcentual de riesgos y plazos de pago.
+* **Decisiones de diseño** En el cotizador prioricé validaciones cruzadas inmediatas (`while`) para evitar datos incongruentes; en el sistema de estacionamiento evolucioné la arquitectura dividiendo toda la lógica en 10 métodos reutilizables, usando `int.TryParse` para prevenir fallos por entradas de texto y bloques `try-catch-finally` para control de errores; y en la tienda RPG implementé clases independientes (`Jugador` y `ObjetoTienda`) con propiedades encapsuladas.
+* **Matemáticas y lógica aplicadas** Encapsulamiento de atributos, enumeradores (`enum`), validación de rangos y límites, cálculo de porcentajes acumulables, promedios y estructuras de control (`switch-case`, `do-while`, `for`).
+* **Qué aprendí** A modelar entidades de un videojuego mediante clases y objetos en C#, proteger el estado de las variables con propiedades y estructurar sistemas escalables antes de llevarlos a Unity.
+* **Código fuente (C#)**
+  * [TiendaObjetosJugador.cs](TiendaObjetosJugador.cs)
+  * [GestionEstacionamiento.cs](GestionEstacionamiento.cs)
+  * [CotizadorSeguroVehicular.cs](CotizadorSeguroVehicular.cs)
+
+---
+
+### Anexo
+* [Ver mapa y planeación inicial del portafolio (PDF)](Mapa_Portafolio_GerardoArreola.pdf)
 *
