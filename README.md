@@ -11,6 +11,8 @@ Estudiante de desarrollo y diseño de videojuegos, enfocado en programación en 
 * [2. Clicker My Game (Unity / C#)](#2-clicker-my-game-unity--c)
 * [3. Juego de Cartas Estratégico (Game Design)](#3-juego-de-cartas-estratégico-game-design)
 * [4. El Tributo del Hambre (Game Design)](#4-el-tributo-del-hambre-game-design)
+* [5. Simulador de Dado 3D con Físicas (Unity / C#)](#5-simulador-de-dado-3d-con-físicas-unity--c)
+* [6. Sistemas de Lógica y Programación Orientada a Objetos en C# (Visual Studio)](#6-sistemas-de-lógica-y-programación-orientada-a-objetos-en-c-visual-studio)
 
 ---
 
@@ -107,7 +109,24 @@ Estudiante de desarrollo y diseño de videojuegos, enfocado en programación en 
 | Duende | Espíritu | Gólem | Lobo | Slime |
 | :---: | :---: | :---: | :---: | :---: |
 | <img src="Duende.jpeg" width="140"> | <img src="Espiritu.jpeg" width="140"> | <img src="Golem.jpeg" width="140"> | <img src="Lobo.jpeg" width="140"> | <img src="Slime.jpeg" width="140"> |
+
 ---
-### Anexo
-* [Ver mapa y planeación inicial del portafolio (PDF)](Mapa_Portafolio_GerardoArreola.pdf)
+
+## 5. Simulador de Dado 3D con Físicas (Unity / C#)
+* **Mi rol** Desarrollo individual (programación en C#, configuración de físicas 3D, colisiones e interfaz UI en Unity).
+* **De qué trata** Prototipo interactivo en 3D que simula el lanzamiento físico de un dado tanto con tecla (`Space`) como mediante un botón de interfaz, detectando automáticamente la cara superior al detenerse.
+* **Decisiones de diseño** Implementé un sistema basado en físicas reales en lugar de un cálculo puramente matemático para lograr un comportamiento visual orgánico, separando el control de lanzamiento manual, el lanzamiento por UI, la zona de detección y la actualización del marcador.
+* **Matemáticas y físicas aplicadas** Aplicación de fuerzas verticales (`AddForce`), rotación aleatoria en tres ejes (`Random.Range` + `AddTorque`), validación de velocidad lineal en cero (`rb.linearVelocity`) y lógica inversa de caras opuestas (`switch-case`) para determinar el resultado.
+* **Qué aprendí** A trabajar con `Rigidbody` en 3D, detectar estados de reposo mediante `OnTriggerStay` y conectar botones de UI con objetos físicos en tiempo real.
+* **Código fuente (C#)**
+  * [AutoLauncherScript.cs](AutoLauncherScript.cs)
+  * [DiceScript.cs](DiceScript.cs)
+  * [DiceCheckZoneScript.cs](DiceCheckZoneScript.cs)
+  * [DiceNumberTextScript.cs](DiceNumberTextScript.cs)
+
+---
+
+## 6. Sistemas de Lógica y Programación Orientada a Objetos en C# (Visual Studio)
+* **Mi rol** Desarrollo individual (100% programación en C#, diseño de lógica de sistemas y arquitectura orientada a objetos).
+* **De qué trata** Colección de tres sistemas completos desarrollados en consola que muestran mi evolución desde programación estructurada hasta Programación Orientada a Objetos (POO) aplicada a videojuegos:
 *
