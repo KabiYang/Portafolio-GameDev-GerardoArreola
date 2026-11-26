@@ -75,10 +75,9 @@ Estudiante de desarrollo y diseño de videojuegos, enfocado en programación en 
 
 ### Fotos de las cartas impresas
 
-| Recursos (Frente) | Recursos (Reverso) | Sabotajes (Frente) | Sabotajes (Reverso) |
+| Recursos (Diseño 1) | Recursos (Diseño 2) | Sabotajes (Diseño 1) | Sabotajes (Diseño 2) |
 | :---: | :---: | :---: | :---: |
-| <img src="Recursos-dise%C3%B1o.jpeg" width="180"> | <img src="Recursos-dise%C3%B1o-parte-de-atras.jpeg" width="180"> | <img src="Sabotajes-dise%C3%B1o.jpeg" width="180"> | <img src="Sabotajes-dise%C3%B1o-parte-de-atras.jpeg" width="180"> |
-
+| <img src="Recursos-Dise%C3%B1o.jpeg" width="180"> | <img src="Recursos-Dise%C3%B1o2.jpeg" width="180"> | <img src="Sabotajes-Dise%C3%B1o.jpeg" width="180"> | <img src="Sabotajes-Dise%C3%B1o2.jpeg" width="180"> |
 ---
 
 ## 4. El Tributo del Hambre (Game Design)
